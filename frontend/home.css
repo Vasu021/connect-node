@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(white,rgb(102, 245, 102));
+}
+
+/* --------Navigation area----------- */
+
+.nav-name{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+}
+
+
+/* -------- chat container ------------ */
+
+.container{
+    max-width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.msg-left{
+    background-color: rgb(160, 160, 245);
+    width: 30%;
+    padding: 10px;
+    margin: 15px 15px 15px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    float: left;
+    clear: both;
+}
+
+.msg-right{
+    background-color: rgb(160, 160, 245);
+    width: 30%;
+    padding: 10px;
+    margin: 15px 15px 5px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    float: right;
+    clear: both;
+}
+
+
+.send{
+    margin: auto;
+    width: fit-content;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
