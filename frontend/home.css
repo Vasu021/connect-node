@@ -20,6 +20,7 @@ body{
     height: 500px;
     border: 1px solid black;
     border-radius: 10px;
+    overflow-y: auto;
 }
 
 .msg-left{
